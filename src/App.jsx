@@ -44,7 +44,7 @@ function App() {
             <div class="max-w-md">
               <div class="avatar">
                 <div class="mb-1 rounded-full w-48 h-48">
-                  <img src={profilePic} />
+                  <img src={profilePic} alt="meiling's face"/>
                 </div>
               </div>
               <h1 className='mt-10 mb-5 text-5xl animate__animated animate__slideInDown'>
@@ -105,7 +105,7 @@ function App() {
           </figure>
           <div class="card-body">
             <h2 class="card-title">Backlog</h2>
-            <p>Backlog is a bug tracker app where users can submit and assign tickets to others, add comments to tickets, and mark tickets as completed when issues are resolved.</p>
+            <p>Backlog is a bug tracker app where users can submit and assign tickets to others, add comments to tickets, and mark tickets as completed when issues are resolved. I built Backlog as part of an incredible team with <a class="link link-secondary" href="https://github.com/slavdefense">Sagun S.</a> and <a class="link link-secondary" href="https://github.com/williambennett321">Tyler B</a>.</p>
             <div class="card-actions">
               <div class="card-actions mx-auto">
                 <a href="https://github.com/mbedard0/Backlog-MERN-Stack/">
