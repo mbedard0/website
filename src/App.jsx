@@ -5,6 +5,10 @@ import playersIo from './players-io.png'
 import backlog from './backlog.jpg'
 
 function App() {
+  function getYear() {
+    return new Date().getFullYear();
+  }
+
   return (
     <div className="App">
       <header>
@@ -138,7 +142,7 @@ function App() {
       </main>
       <footer class="p-10 footer bg-neutral text-neutral-content">
         <p className='content-center'>
-          © 2021 Meiling Bedard
+          © {getYear()} Meiling Bedard
         </p>
       </footer>
     </div>
