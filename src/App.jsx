@@ -3,6 +3,7 @@ import 'animate.css';
 import profilePic from './photo-website.jpg'
 import playersIo from './players-io.png'
 import backlog from './backlog.jpg'
+import connectfour from './connect-four.png'
 
 function App() {
   function getYear() {
@@ -21,7 +22,7 @@ function App() {
         </div>
         <div class="flex-1 px-10 mx-2">
           <div class="items-stretch hidden lg:flex">
-            <a class="btn btn-ghost btn-sm rounded-btn" href='https://drive.google.com/file/d/1lraCPlOwTmSl2qLeTJpOyrqG6XN_5eex/view?usp=sharing'>
+            <a class="btn btn-ghost btn-sm rounded-btn" href='https://drive.google.com/file/d/16hYwV2xnsOAQRTs1vlrAqVZ6FAhmOxEz/view?usp=sharing'>
               CV
             </a>
             <a class="btn btn-ghost btn-sm rounded-btn" href='https://github.com/mbedard0'>
@@ -122,6 +123,28 @@ function App() {
             </div>
           </div>
         </div>
+        <div class="card lg:card-side bordered">
+          <figure>
+            <div class="avatar">
+              <img src={connectfour} alt='backlog app screenshot'/>
+            </div>
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Connect Four</h2>
+            <p>A classic Connect Four game built in Javascript, HTML, and CSS using DOM manipulation. The code for this game uses a one-dimensional array. Players can select their choice of piece and alternate turns.</p>
+            <div class="card-actions">
+              <div class="card-actions mx-auto">
+                <a href="https://github.com/mbedard0/connect-four/">
+                  <button class="btn btn-outline">GitHub</button>
+                </a>
+                <a href="https://mbedard0.github.io/connect-four/">
+                  <button class="btn btn-outline btn-primary">App</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="divider"></div>
         <div>
           <h2 className='text-3xl mt-10 mb-5'>
