@@ -22,7 +22,7 @@ function App() {
         </div>
         <div class="flex-1 px-10 mx-2">
           <div class="items-stretch hidden lg:flex">
-            <a class="btn btn-ghost btn-sm rounded-btn" href='https://drive.google.com/file/d/16hYwV2xnsOAQRTs1vlrAqVZ6FAhmOxEz/view?usp=sharing'>
+            <a class="btn btn-ghost btn-sm rounded-btn" href='https://drive.google.com/file/d/16hYwV2xnsOAQRTs1vlrAqVZ6FAhmOxEz/view?usp=sharing' target='_blank' rel='noreferrer'>
               CV
             </a>
             <a class="btn btn-ghost btn-sm rounded-btn" href='https://github.com/mbedard0' target='_blank' rel='noreferrer'>
