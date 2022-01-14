@@ -25,10 +25,10 @@ function App() {
             <a class="btn btn-ghost btn-sm rounded-btn" href='https://drive.google.com/file/d/16hYwV2xnsOAQRTs1vlrAqVZ6FAhmOxEz/view?usp=sharing'>
               CV
             </a>
-            <a class="btn btn-ghost btn-sm rounded-btn" href='https://github.com/mbedard0'>
+            <a class="btn btn-ghost btn-sm rounded-btn" href='https://github.com/mbedard0' target='_blank' rel='noreferrer'>
               Github
             </a>
-            <a class="btn btn-ghost btn-sm rounded-btn" href='https://www.linkedin.com/in/f-meiling-bedard/'>
+            <a class="btn btn-ghost btn-sm rounded-btn" href='https://www.linkedin.com/in/f-meiling-bedard/' target='_blank' rel='noreferrer'>
               LinkedIn
             </a>
           </div>
@@ -92,10 +92,10 @@ function App() {
                 Use this app to track the statistics of your favorite Premier League players, search by team or name, and even see the list of games this season. Add players to your Player List to easily follow them week in and out.
               </p>
               <div class="card-actions mx-auto">
-                <a href="https://github.com/mbedard0/players-io">
+                <a href="https://github.com/mbedard0/players-io" target='_blank' rel='noreferrer'>
                   <button class="btn btn-outline">GitHub</button>
                 </a>
-                <a href="https://players-io.herokuapp.com/">
+                <a href="https://players-io.herokuapp.com/" target='_blank' rel='noreferrer'>
                   <button class="btn btn-outline btn-primary">App</button>
                 </a>
               </div>
@@ -110,13 +110,13 @@ function App() {
           </figure>
           <div class="card-body">
             <h2 class="card-title">Backlog</h2>
-            <p>Backlog is a bug tracker app where users can submit and assign tickets to others, add comments to tickets, and mark tickets as completed when issues are resolved. I built Backlog as part of an incredible team with <a class="link link-secondary" href="https://github.com/slavdefense">Sagun S.</a> and <a class="link link-secondary" href="https://github.com/williambennett321">Tyler B</a>.</p>
+            <p>Backlog is a bug tracker app where users can submit and assign tickets to others, add comments to tickets, and mark tickets as completed when issues are resolved. I built Backlog as part of an incredible team with <a class="link link-secondary" href="https://github.com/slavdefense" target='_blank' rel='noreferrer'>Sagun S.</a> and <a class="link link-secondary" href="https://github.com/williambennett321" target='_blank' rel='noreferrer'>Tyler B</a>.</p>
             <div class="card-actions">
               <div class="card-actions mx-auto">
-                <a href="https://github.com/mbedard0/Backlog-MERN-Stack/">
+                <a href="https://github.com/mbedard0/Backlog-MERN-Stack/" target='_blank' rel='noreferrer'>
                   <button class="btn btn-outline">GitHub</button>
                 </a>
-                <a href="https://backlog-bugtracker-app.herokuapp.com/">
+                <a href="https://backlog-bugtracker-app.herokuapp.com/" target='_blank' rel='noreferrer'>
                   <button class="btn btn-outline btn-primary">App</button>
                 </a>
               </div>
@@ -134,10 +134,10 @@ function App() {
             <p>A classic Connect Four game built in Javascript, HTML, and CSS using DOM manipulation. The code for this game uses a one-dimensional array. Players can select their choice of piece and alternate turns.</p>
             <div class="card-actions">
               <div class="card-actions mx-auto">
-                <a href="https://github.com/mbedard0/connect-four/">
+                <a href="https://github.com/mbedard0/connect-four/" target='_blank' rel='noreferrer'>
                   <button class="btn btn-outline">GitHub</button>
                 </a>
-                <a href="https://mbedard0.github.io/connect-four/">
+                <a href="https://mbedard0.github.io/connect-four/" target='_blank' rel='noreferrer'>
                   <button class="btn btn-outline btn-primary">App</button>
                 </a>
               </div>
