@@ -22,7 +22,7 @@ function App() {
         </div>
         <div class="flex-1 px-10 mx-2">
           <div class="items-stretch hidden lg:flex">
-            <a class="btn btn-ghost btn-sm rounded-btn" href='https://drive.google.com/file/d/16hYwV2xnsOAQRTs1vlrAqVZ6FAhmOxEz/view?usp=sharing' target='_blank' rel='noreferrer'>
+            <a class="btn btn-ghost btn-sm rounded-btn" href='https://drive.google.com/file/d/1ALg2_CAeGjSq2rnG40aJHqWxnPfOqBwN/view?usp=sharing' target='_blank' rel='noreferrer'>
               CV
             </a>
             <a class="btn btn-ghost btn-sm rounded-btn" href='https://github.com/mbedard0' target='_blank' rel='noreferrer'>
@@ -72,7 +72,7 @@ function App() {
             About Me
           </h2>
           <p>
-            I am a software engineer based in New York City🏙. I build apps with JavaScript and Python. I used to be a writer and journalist, but now I mostly write code. I like soccer and food and making apps that combine those interests.
+            I am a software engineer based in New York City. I build apps with JavaScript and Python. I used to be a writer and journalist, but now I mostly write code. I like soccer and food and making apps that combine those interests. Right now I'm working on a mobile app called <a href="https://github.com/mbedard0/fighting-ships" target='_blank' rel='noreferrer' className='link link-secondary'>Fighting Ships</a>.
           </p>
         </div>
         <div class="divider"></div>
