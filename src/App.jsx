@@ -72,7 +72,7 @@ function App() {
             About Me
           </h2>
           <p>
-            I am a software engineer based in New York City. I build apps with JavaScript and Python. I used to be a writer and journalist, but now I mostly write code. I like soccer and food and making apps that combine those interests. Right now I'm working on a mobile app called <a href="https://github.com/mbedard0/fighting-ships" target='_blank' rel='noreferrer' className='link link-secondary'>Fighting Ships</a>.
+            I am a software engineer based in New York City. I build apps with JavaScript and Python. I used to be a writer and journalist, but now I mostly write code. I like soccer and food and making apps that combine those interests. Right now I'm learning SwiftUI and working on a mobile app called <a href="https://github.com/mbedard0/fighting-ships" target='_blank' rel='noreferrer' className='link link-secondary'>Fighting Ships</a>. I'm also collaborating to build a React site called Apply (<a href="https://github.com/mbedard0/apply-front-end" target='_blank' rel='noreferrer' className='link link-secondary'>front-end</a> and <a href="https://github.com/mbedard0/apply-back-end" target='_blank' rel='noreferrer' className='link link-secondary'>back-end</a>), which is a job board posting site.
           </p>
         </div>
         <div class="divider"></div>
@@ -86,7 +86,7 @@ function App() {
                 <img src={playersIo} alt='project screenshot'/>
               </div>
             </figure>
-            <div class="card-body">
+            <div class="card-body w-11/12">
               <h2 class="card-title">Players.io</h2>
               <p>
                 Use this app to track the statistics of your favorite Premier League players, search by team or name, and even see the list of games this season. Add players to your Player List to easily follow them week in and out.
@@ -108,7 +108,7 @@ function App() {
               <img src={backlog} alt='backlog app screenshot'/>
             </div>
           </figure>
-          <div class="card-body">
+          <div class="card-body w-10/12">
             <h2 class="card-title">Backlog</h2>
             <p>Backlog is a bug tracker app where users can submit and assign tickets to others, add comments to tickets, and mark tickets as completed when issues are resolved. I built Backlog as part of an incredible team with <a class="link link-secondary" href="https://github.com/slavdefense" target='_blank' rel='noreferrer'>Sagun S.</a> and <a class="link link-secondary" href="https://github.com/williambennett321" target='_blank' rel='noreferrer'>Tyler B</a>.</p>
             <div class="card-actions">
@@ -129,7 +129,7 @@ function App() {
               <img src={connectfour} alt='backlog app screenshot'/>
             </div>
           </figure>
-          <div class="card-body">
+          <div class="card-body w-10/12">
             <h2 class="card-title">Connect Four</h2>
             <p>A classic Connect Four game built in Javascript, HTML, and CSS using DOM manipulation. The code for this game uses a one-dimensional array. Players can select their choice of piece and alternate turns.</p>
             <div class="card-actions">
