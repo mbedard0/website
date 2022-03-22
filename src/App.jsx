@@ -1,9 +1,10 @@
 import './App.css';
 import 'animate.css';
-import profilePic from './photo-website.jpg'
-import playersIo from './players-io.png'
-import backlog from './backlog.jpg'
-import connectfour from './connect-four.png'
+import profilePic from './images/photo-website.jpg'
+import playersIo from './images/players-io.png'
+import backlog from './images/backlog.jpg'
+import connectfour from './images/connect-four.png'
+import checklist from './images/checklist.png'
 
 function App() {
   function getYear() {
@@ -100,6 +101,27 @@ function App() {
                   <button class="btn btn-outline">GitHub</button>
                 </a>
                 <a href="https://players-io.herokuapp.com/" target='_blank' rel='noreferrer'>
+                  <button class="btn btn-outline btn-primary">App</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card lg:card-side bordered">
+          <figure>
+            <div class="avatar">
+              <img src={checklist} className="" alt='checklist app screenshot'/>
+            </div>
+          </figure>
+          <div class="card-body w-8/12">
+            <h2 class="card-title">Checklist</h2>
+            <p>Built as part of a technical challenge, Checklist is a front-end only React app that is mobile responsive and dynamic. It utilizies Tailwind. Create, edit, and delete your to do items with this site.</p>
+            <div class="card-actions">
+              <div class="card-actions mx-auto">
+                <a href="https://github.com/mbedard0/checklist-front-end/" target='_blank' rel='noreferrer'>
+                  <button class="btn btn-outline">GitHub</button>
+                </a>
+                <a href="https://checklist-flax.vercel.app/" target='_blank' rel='noreferrer'>
                   <button class="btn btn-outline btn-primary">App</button>
                 </a>
               </div>
