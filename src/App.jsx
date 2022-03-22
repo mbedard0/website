@@ -72,7 +72,11 @@ function App() {
             About Me
           </h2>
           <p>
-            I am a software engineer based in New York City. I build apps with JavaScript and Python. I used to be a writer and journalist, but now I mostly write code. I like soccer and food and making apps that combine those interests. Right now I'm learning SwiftUI and working on a mobile app called <a href="https://github.com/mbedard0/fighting-ships" target='_blank' rel='noreferrer' className='link link-secondary'>Fighting Ships</a>. I'm also collaborating to build a React site called Apply (<a href="https://github.com/mbedard0/apply-front-end" target='_blank' rel='noreferrer' className='link link-secondary'>front-end</a> and <a href="https://github.com/mbedard0/apply-back-end" target='_blank' rel='noreferrer' className='link link-secondary'>back-end</a>), which is a job board posting site.
+            I am a software engineer based in New York City. I build apps with JavaScript and Python. I used to be a writer and journalist, but now I mostly write code. I like soccer and food and making apps that combine those interests. 
+          </p>
+          <br />
+          <p>
+            <b>What I'm working on now is</b> a decoupled React application called Animal Crossing Collector (<a target='_blank' rel='noreferrer' className='link link-secondary' href="https://github.com/mbedard0/acnh-collector-front-end">front-end</a> and <a target='_blank' rel='noreferrer' className='link link-secondary' href="https://github.com/mbedard0/acnh-collector-back-end">back-end</a>). The website uses the <a target='_blank' rel='noreferrer' className='link link-secondary' href="https://api.nookipedia.com/">Nookipedia API</a>. I'm also learning SwiftUI to develop a mobile app called <a href="https://github.com/mbedard0/fighting-ships" target='_blank' rel='noreferrer' className='link link-secondary'>Fighting Ships</a>.
           </p>
         </div>
         <div class="divider"></div>
